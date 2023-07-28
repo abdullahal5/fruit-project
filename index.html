@@ -22,9 +22,9 @@
 </style>
 
 </head>
-<body class="font-lato">
-  <header class="container mx-auto">
-    <nav class="hidden md:block lg:block">
+<body class="font-lato  container mx-auto">
+  <header class="container mx-auto ">
+    <nav class="hidden md:block lg:block ">
       <div class="flex justify-between items-center bg-[#F85559] rounded-[600px] h-[80px]">
           <div class="list-none flex gap-7 text-white ml-10">
               <li>Home</li>
@@ -50,7 +50,7 @@
           </div>
       </div>
     </nav>
-    <nav class=" lg:hidden md:hidden">
+    <nav class=" lg:hidden md:hidden ">
       <div class="navbar bg-base-100">
         <div class="justify-between flex-1">
           <div class=" flex items-center  ">
@@ -67,7 +67,7 @@
         </div>
       </div>
     </nav>
-    <div class="carousel  w-full">
+    <div class="carousel lg:pt-10 w-full ">
       <div id="slide1" class="carousel-item relative w-full  min-h-[calc(100vh-80px)] ">
         <div class="hero " style="background-image: url(./images/banner1.png);">
           <div class="hero-overlay bg-opacity-60"></div>
@@ -108,7 +108,7 @@
         </div>
       </div> 
       <div id="slide2" class="carousel-item relative w-full bg-gradient-to-r from-indigo-500 to-pind-600 min-h-[calc(100vh-80px)]">
-        <div class="hero " style="background-image: url(./images/banner2.png);">
+        <div class="hero" style="background-image: url(./images/banner2.png);">
           <div class="hero-overlay bg-opacity-60"></div>
           <div class="hero-content text-center text-neutral-content">
             <div class="max-w-md">
@@ -225,8 +225,8 @@
    
     
   </header>
-  <main class="container mx-auto">
-      <section class=" mt-10 mx-5 lg:mt-32">
+  <main class="container mx-auto lg:mx-0 md:mx-0 ">
+      <section class=" mt-10 lg:mx-0 md:mx-0 mx-5 lg:mt-32">
       <div class="lg:flex flex-col text-center items-center lg:text-left lg:flex-row md:justify-between lg:justify-between">
         <div class="space-y-7">
           <h1 class="text-4xl font-bold ">Deal of the day</h1>
@@ -261,6 +261,7 @@
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">12.90$ - 18.85$</h2>
+            <hr class="h-[2px] bg-[#121212] w-[100px]">
             <p>Apples</p>
             <div class="rating">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -305,6 +306,7 @@
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">12.90$ - 18.85$</h2>
+            <hr class="h-[2px] bg-[#121212] w-[100px]">
             <p>Orange</p>
             <div class="rating">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -348,6 +350,8 @@
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">12.90$ - 18.85$</h2>
+            <hr class="h-[2px] bg-[#121212] w-[100px]">
+            <hr class="">
             <p>Red Dragon</p>
             <div class="rating">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -391,6 +395,7 @@
           </figure>
           <div class="card-body items-center text-center">
             <h2 class="card-title">12.90$ - 18.85$</h2>
+            <hr class="h-[2px] bg-[#121212] w-[100px]">
             <p>Banana</p>
             <div class="rating">
               <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
@@ -435,7 +440,7 @@
       <button class="btn bg-[#F85559] text-white  text-center">Shop All</button>
     </div>
       </section>
-      <section class="m-5">
+      <section class="lg:mx-0 md:mx-0 mx-5" >
           
         <div class="bg-no-repeat bg-center  bg-cover mt-20 mx-auto rounded-2xl lg:w-[1200px]  lg:h-[600px] bg-gradient-to-r from-black to-white" style="background-image: url(./images/team.png); ">
           <div class="text-center text-white  pt-20 ">
@@ -486,12 +491,12 @@
           </div>
         </div>
       </section>
-      <section class="text-white mt-20 mx-10 lg:mx-0 md:mx-10">
+      <section class="text-white mt-20 lg:mx-0 md:mx-10">
           <div class="text-black text-center">
             <h1 class="text-xl  lg:text-5xl font-bold">Why Choose Us</h1>
             <p class="text-sm pt-10">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
-          <div class="flex lg:flex-row md:flex-col items-center flex-col mt-10">
+          <div class="flex lg:flex-row md:flex-col lg:mx-0 md:mx-0 mx-5 items-center flex-col mt-10">
           <div class="flex flex-col-reverse md:flex-col lg:flex-row justify-between items-center">
             <div class="space-y-6 mt-10">
               <div class="flex flex-col md:flex-col lg:flex-row items-center gap-7">
@@ -564,7 +569,7 @@
             </div>
       </section>
   </main>
-  <footer class="container mx-auto mt-20">
+  <footer class=" mt-20 ">
     <footer class="footer footer-center p-10 bg-black text-white text-base-content rounded">
       <div class=" flex">
         <div>
